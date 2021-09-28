@@ -1,4 +1,3 @@
-# Use postgres/example user/password credentials
 version: '3.1'
 
 services:
@@ -7,7 +6,7 @@ services:
     image: postgres
     restart: on-failure
     environment:
-       - POSTGRES_USER=postgres
+       - POSTGRES_USER=perftest
        - POSTGRES_PASSWORD=example
        - PGDATA=/var/lib/postgresql/data/pgdata
        - POSTGRES_DB=postgres
