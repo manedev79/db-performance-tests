@@ -1,6 +1,8 @@
 # db-performance-tests
 Database performance tests. The examples are inspired by the book *SQL Performance explained*.
 
+[DDL scripts](https://use-the-index-luke.com/sql/example-schema) by Markus Winand licensed under [CC-BY-NC-ND 3.0 license](https://creativecommons.org/licenses/by-nc-nd/3.0/) 
+
 ## Prerequisites
 - docker and docker-compose
 - SQL Client, e.g.
