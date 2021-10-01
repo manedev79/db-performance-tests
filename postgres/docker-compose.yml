@@ -11,6 +11,6 @@ services:
        - PGDATA=/var/lib/postgresql/data/pgdata
        - POSTGRES_DB=perftest
     volumes:
-       - ./postgres_data:/var/lib/postgresql
+      - ./sql/ddl:/docker-entrypoint-initdb.d
     ports:
        - 5432:5432
