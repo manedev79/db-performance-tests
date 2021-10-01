@@ -22,6 +22,8 @@ TODO: Common traits
 cd postgres
 docker-compose up
 ```
+NOTE: This will create the database `perftest` and all tables initially.  
+
 2. Connect with your favorite DB client``
 ```
 "server": "localhost",
@@ -30,9 +32,8 @@ docker-compose up
 "password": "example",
 "database": "perftest"
 ```
-3. Create test data. Execute [`postgres/sql/create-employees.sql`](postgres/sql/create-employees.sql).
 
-4. Run sample queries, e.g. [`postgres/sql/primary-keys.sql`](postgres/sql/primary-keys.sql)
+3. Run sample queries, e.g. [`postgres/sql/primary-keys.sql`](postgres/sql/primary-keys.sql)
 
 The sample queries are creating execution plans, i.e. they use `EXPLAIN`.
 
